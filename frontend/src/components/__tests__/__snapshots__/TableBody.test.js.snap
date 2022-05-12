@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TableBody /> renders component when there is a quotes data 1`] = `
+<ContextConsumer>
+  <Component />
+</ContextConsumer>
+`;
+
+exports[`<TableBody /> renders component when there is no data 1`] = `
+<ContextConsumer>
+  <Component />
+</ContextConsumer>
+`;

@@ -1,0 +1,52 @@
+.logocontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c8bad9;
+  width: 100vw;
+  max-width: 100%;
+}  
+
+.logoimage {
+  width: 460px;
+  height: 270px;
+}
+
+.navbar { 
+  width: 100vw;
+  max-width: 100%;
+  background-color: #c8bad9;
+  height: 65px;
+}
+
+.navbox {
+  text-align: center;
+  background-color: #c8bad9;
+}
+
+.navitem {
+  display: inline-block; /* Arrange list items in horizontal line */
+  list-style-type: none; /* We don't want bullets on our items */
+  margin: 0;
+  padding: 10px 0; /* Sets height of nav bar */
+}
+
+/* .navitem:hover {
+  background: white;
+} */
+
+.navlink {
+  color: white;
+  text-decoration: none;
+  padding: 12px;
+  font-size: 30px;
+  /* font-family: 'Pinyon Script', cursive; */
+  font-family: 'Playball', cursive;
+  /* font-family: 'Pacifico', cursive; */
+  outline: none;
+}
+
+.navlink:hover {
+  color: black;
+  text-decoration: none;
+}
